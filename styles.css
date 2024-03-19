@@ -1,0 +1,85 @@
+/* Resetting some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f0f0f0;
+}
+
+header h1 {
+  color: #333;
+}
+
+.about {
+  margin: 20px 0;
+}
+
+.about h2 {
+  color: #333;
+}
+
+.about p {
+  color: #666;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.member {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.member img {
+  width: 80%;
+  /* height: auto; */
+  border-radius: 8px;
+}
+
+.member .details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.member h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.member p {
+  color: #666;
+}
+
+/* Styling specific sections */
+.founder,
+.developer,
+.sales {
+  margin-bottom: 40px;
+}
+
+.founder h2,
+.developer h2,
+.sales h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+img {
+  width: 100px;
+}
